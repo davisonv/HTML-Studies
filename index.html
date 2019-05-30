@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<head>
+  <title>Cadastro</title>
+</head>
+
+<body>
+	<h1>Ficha Cadastral</h1>
+	<fieldset>
+		<legend>Cadastro Pessoa Física</legend>	
+			<form action="#" method="POST">
+    			<label for="POST-name">Nome:</label>
+    			<input id="POST-name" type="text" name="name" placeholder="Digite seu nome aqui">
+    				<br>
+    				<br>
+    			<label for="POST-name">CPF:</label>
+    			<input type="text" name="cpf" placeholder="Digite seu cpf aqui">
+    				<br>
+    				<br>
+    			<label>Planos:</label>
+    			<input list="Planos" placeholder="Selecione seu plano">
+    				<datalist id="Planos">
+    					<option value="Plano Júnior">
+    					<option value="Plano Pleno">
+    					<option value="Plano Sênior">	
+    				</datalist>
+    			<input type="submit" value="enviar">	
+			</form>
+	</fieldset>
+</body>
+</html>
